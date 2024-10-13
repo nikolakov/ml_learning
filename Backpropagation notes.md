@@ -227,9 +227,14 @@ $$
 \delta_{j}^{l} \frac{\partial}{\partial b_{j}^{l}}(w_{j}^{l} \cdot a^{l-1} + b_{j}^{l}) = \delta_{j}^{l}
 $$
 
-## Fourth equation of backp
+## Fourth equation of backpropagation - derivative (rate of change) of cost function $C$ with respect to a weight $w_{jk}^{l}$ in terms of error $\delta_{j}^{l}$:
+
+We can again use the chain rule:
+$$
+\frac{\partial C}{\partial w_{jk}^{l}}
+$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzEzMTc0LC0yMTA1MzI4NTYxXX0=
+eyJoaXN0b3J5IjpbMTM1MDUzNjQ4MSwtMjEwNTMyODU2MV19
 -->
