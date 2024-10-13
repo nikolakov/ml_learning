@@ -223,11 +223,11 @@ $$
 We can use the chain rule:
 $$
 \frac{\partial C}{\partial b_{j}^{l}} = 
-\frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{}{}
+\frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{\partial z_{j}^{l}}{\partial b_{j}^{l}} = 
+\delta_{j}^{l} \left ({(\delta)} \right )
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkyNTI1OTcsLTIxMDUzMjg1NjFdfQ
-==
+eyJoaXN0b3J5IjpbLTkyMjk1MDUyNiwtMjEwNTMyODU2MV19
 -->
