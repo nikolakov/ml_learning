@@ -224,10 +224,12 @@ We can use the chain rule:
 $$
 \frac{\partial C}{\partial b_{j}^{l}} = 
 \frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{\partial z_{j}^{l}}{\partial b_{j}^{l}} = 
-\delta_{j}^{l} \frac{\partial}{\partial b_{j}^{l}}(w
+\delta_{j}^{l} \frac{\partial}{\partial b_{j}^{l}}(w_{j}^{l} \cdot a^{l-1} + b_{j}^{l}) = \delta_{j}^{l}
 $$
+
+## Fourth equation of backp
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1NTIxMjg1LC0yMTA1MzI4NTYxXX0=
+eyJoaXN0b3J5IjpbMTQzNzEzMTc0LC0yMTA1MzI4NTYxXX0=
 -->
