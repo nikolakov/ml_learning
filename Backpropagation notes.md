@@ -215,7 +215,7 @@ w_{1m}^{l+1} w_{2m}^{l+1} \dots w_{jm}^{l+1} \dots w_{nm}^{l+1}
 }\right ) \circ \sigma'(z^{l})_{\substack{m \times 1}} = \\
 $$
 $$
-\delta^{l} = \left ({ (w^{l+1})^{T} \delta^{l+1} } \right ) \circ \sigma'(z^{l})
+\left ({ (w^{l+1})^{T} \delta^{l+1} } \right ) \circ \sigma'(z^{l})
 $$
 
 ## Third equation of backpropagation - derivative (rate of change) of cost function $C$ with respect to a bias $b_{j}^{l}$ in terms of error $\delta_{j}^{l}$:
@@ -236,11 +236,11 @@ $$
 \delta_{j}^{l} \frac{\partial}{\partial w_{jk}^{l}}(w_{j}^{l} \cdot a^{l-1} + b_{j}^{l}) = \\
 \delta_{j}^{l} \frac{\partial}{\partial w_{jk}^{l}}(w_{j1}^{l} a_{1}^{l-1} + w_{j2}^{l} a_{2}^{l-1} + \dots + w_{jk}^{l} a_{k}^{l-1} + \dots + b_{j}^{l}) = \\
 \delta_{j}^{l} \left ({ \frac{\partial}{\partial w_{jk}^{l}}(w_{j1}^{l} a_{1}^{l-1}) + \frac{\partial}{\partial w_{jk}^{l}} (w_{j2}^{l} a_{2}^{l-1}) + \dots + \frac{\partial}{\partial w_{jk}^{l}} (w_{jk}^{l} a_{k}^{l-1}) + \dots + \frac{\partial}{\partial w_{jk}^{l}} b_{j}^{l} } \right ) = \\
-\delta_{j}^{l}
+a_{k}^{l-1}\delta_{j}^{l}
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI4NzU0NjgsLTIxMDUzMjg1NjFdfQ
+eyJoaXN0b3J5IjpbLTEzOTg1NjczNjQsLTIxMDUzMjg1NjFdfQ
 ==
 -->
