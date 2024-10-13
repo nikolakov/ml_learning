@@ -210,9 +210,9 @@ w_{12}^{l+1} w_{22}^{l+1} \dots w_{j2}^{l+1} \dots w_{n2}^{l+1} \\
 w_{1k}^{l+1} w_{2k}^{l+1} \dots w_{jk}^{l+1} \dots w_{nk}^{l+1} \\
 \vdots \\
 w_{1m}^{l+1} w_{2m}^{l+1} \dots w_{jm}^{l+1} \dots w_{nm}^{l+1}
-\end{bmatrix}_{\substack{m \times n}}
-\delta^{l+1}_{\substack{n \times 1}}
-}\right ) \circ \sigma'(z^{l})_{\substack{m \times 1}} = \\
+\end{bmatrix}
+\delta^{l+1}
+}\right ) \circ \sigma'(z^{l}) =
 $$
 $$
 \left ({ (w^{l+1})^{T} \delta^{l+1} } \right ) \circ \sigma'(z^{l})
@@ -241,6 +241,5 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg1NjczNjQsLTIxMDUzMjg1NjFdfQ
-==
+eyJoaXN0b3J5IjpbMjk3MzI0NzE3LC0yMTA1MzI4NTYxXX0=
 -->
