@@ -234,10 +234,11 @@ $$
 \frac{\partial C}{\partial w_{jk}^{l}} =
 \frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{\partial z_{j}^{l}}{\partial w_{jk}^{l}} =
 \delta_{j}^{l} \frac{\partial}{\partial w_{jk}^{l}}(w_{j}^{l} \cdot a^{l-1} + b_{j}^{l}) = \\
-\delta_{j}^{l} \frac{\partial}{\partial w_{jk}^{l}}(w_{j1}^{l} a_{1}^{l-1} + + b_{j}^{l})
+\delta_{j}^{l} \frac{\partial}{\partial w_{jk}^{l}}(w_{j1}^{l} a_{1}^{l-1} + w_{j2}^{l} a_{2}^{l-1} + \dots + w_{jk}^{l} a_{k}^{l-1} + \dots + w_{jm}^{l} a_{m}^{l-1}  + b_{j}^{l})
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjg2Mzc1NCwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbLTE5MzQ4MDU3MjgsLTIxMDUzMjg1NjFdfQ
+==
 -->
