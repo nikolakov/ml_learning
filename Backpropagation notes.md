@@ -120,7 +120,7 @@ where $n$ is the number of neurons in layer $l$
 Backpropagation will compute $\delta^{l}$ for every layer
 
 ## First equation of backpropagation - equation for error $\delta^{L}$ of the output layer:
-Equation for error in output layer: 
+Equation for error of output layer: 
 $$
 \delta_{j}^{L} = \frac{\partial C}{\partial a_{j}^{L}} \cdot \frac{\partial a_{j}^{L}}{\partial z_{j}^{L}} = \frac{\partial C}{\partial a_{j}^{L}} \sigma'(z_{j}^{L})
 $$
@@ -154,7 +154,7 @@ $$
 \delta^{L} = (a^{L} - y) \circ \sigma'(z^{L})
 $$
 
-## Second equation of backpropagation - equation for error of any layer $\delta^{l}$ in terms of error in the next layer $\delta^{l+1}$:
+## Second equation of backpropagation - equation for error of any layer $\delta^{l}$ in terms of error of the next layer $\delta^{l+1}$:
 Let's look at the component of error of neuron $k$ in layer $l$ $\delta_{k}^{l}$ coming from the error of neuron $j$ in layer $(l+1)$ $\delta_{j}^{l+1}$:
 We know that:
 $$
@@ -218,8 +218,8 @@ $$
 \delta^{l} = \left ({ (w^{l+1})^{T} \delta^{l+1} } \right ) \circ \sigma'(z^{l})
 $$
 
-
+## Third equation of backpropagation - 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDQwMzA5NSwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbLTE5MTY4MDcxLC0yMTA1MzI4NTYxXX0=
 -->
