@@ -44,7 +44,7 @@ $$
 
 Now, we can define $w^{l}$ to be the matrix containing all rows $(w_{j}^{l})^{T}$:
 $$
-w^{l} = \begin{bmatrix} w_{1}^{lT} \\ w_{2}^{lT} \\ \vdots \\ w_{j}^{lT} \\ \vdots \\ w_{n}^{lT} \end{bmatrix}
+w^{l} = \begin{bmatrix} (w_{1}^{l})^{T} \\ (w_{2}^{l})^{T} \\ \vdots \\ (w_{j}^{l})^{T} \\ \vdots \\ (w_{n}^{l})^{T} \end{bmatrix}
 $$
 where $n$ is the number of neurons in layer $l$.
 
@@ -229,5 +229,5 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Mzc4MDc2MSwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbNjI1NTIxMjg1LC0yMTA1MzI4NTYxXX0=
 -->
