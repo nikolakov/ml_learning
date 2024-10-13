@@ -38,11 +38,11 @@ where $n$ is the number of weights going in neuron $j$ of layer $l$.
 
 Then, we can rewrite the expression again as:
 $$
-a_{j}^{l} =  \sigma  \left ({ w_{j}^{lT} a^{l-1} + b_{j}^{l} } \right )
+a_{j}^{l} =  \sigma  \left ({ (w_{j}^{l})^{T} a^{l-1} + b_{j}^{l} } \right )
 $$
 (this is now matrix multiplication).
 
-Now, we can define $w^{l}$ to be the matrix containing all rows $w_{j}^{lT}$:
+Now, we can define $w^{l}$ to be the matrix containing all rows $(w_{j}^{l})^{T}$:
 $$
 w^{l} = \begin{bmatrix} w_{1}^{lT} \\ w_{2}^{lT} \\ \vdots \\ w_{j}^{lT} \\ \vdots \\ w_{n}^{lT} \end{bmatrix}
 $$
@@ -68,7 +68,7 @@ a^{l} = \sigma \left({ w^{l}a^{l-1} + b^{l} }\right)
 $$
 Let $z_{j}^{l}$ be the weighted input to neuron $j$ in layer $l$. This is basically the activation before it is ran through $\sigma$:
 $$
-z_{j}^{l} = w_{j}^{lT}a_{j}^{l-1} + b_{j}^{l}
+z_{j}^{l} = (w_{j}^{l})^{T}a_{j}^{l-1} + b_{j}^{l}
 $$
 And $z^{l}$ be the vector of all the weighted inputs of neurons in layer $l$:
 $$
@@ -229,5 +229,5 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTQzNzM1OSwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbLTI2MzIwNjEyNiwtMjEwNTMyODU2MV19
 -->
