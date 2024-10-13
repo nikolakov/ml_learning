@@ -224,10 +224,10 @@ We can use the chain rule:
 $$
 \frac{\partial C}{\partial b_{j}^{l}} = 
 \frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{\partial z_{j}^{l}}{\partial b_{j}^{l}} = 
-\delta_{j}^{l} \left ({(\delta)} \right )
+\delta_{j}^{l} \frac{\partial}{\partial b_{j}^{l}}(w
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjk1MDUyNiwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbMTM1OTQzNzM1OSwtMjEwNTMyODU2MV19
 -->
