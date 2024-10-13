@@ -119,6 +119,7 @@ where $n$ is the number of neurons in layer $l$
 
 Backpropagation will compute $\delta^{l}$ for every layer
 
+## First equation of backpropagation - equation for error in output layer:
 Equation for error in output layer: 
 $$
 \delta_{j}^{L} = \frac{\partial C}{\partial a_{j}^{L}} \cdot \frac{\partial a_{j}^{L}}{\partial z_{j}^{L}} = \frac{\partial C}{\partial a_{j}^{L}} \sigma'(z_{j}^{L})
@@ -220,5 +221,5 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUzMjg1NjFdfQ==
+eyJoaXN0b3J5IjpbLTYwMTQ4MzA3NCwtMjEwNTMyODU2MV19
 -->
