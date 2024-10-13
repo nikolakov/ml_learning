@@ -32,7 +32,7 @@ a_{j}^{l} =  \sigma  \left ({ w_{j}^{l} \cdot a^{l-1} + b_{j}^{l} } \right )
 $$
 If we instead use the transpose of $w_{j}^{l}$:
 $$
-w_{j}^{lT} = \begin{pmatrix} w_{j1}^{l} w_{j2}^{l}  \dots w_{jk}^{l}  \dots w_{jn}^{l} \end{pmatrix}
+(w_{j}^{l})^{T} = \begin{pmatrix} w_{j1}^{l} w_{j2}^{l}  \dots w_{jk}^{l}  \dots w_{jn}^{l} \end{pmatrix}
 $$
 where $n$ is the number of weights going in neuron $j$ of layer $l$.
 
@@ -229,5 +229,5 @@ $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzIwNjEyNiwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbMTg3Mzc4MDc2MSwtMjEwNTMyODU2MV19
 -->
