@@ -222,10 +222,12 @@ $$
 
 We can use the chain rule:
 $$
-\partial
+\frac{\partial C}{\partial b_{j}^{l}} = 
+\frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{}{}
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTk0MjA2MSwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbLTE0ODkyNTI1OTcsLTIxMDUzMjg1NjFdfQ
+==
 -->
