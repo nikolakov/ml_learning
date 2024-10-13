@@ -231,10 +231,11 @@ $$
 
 We can again use the chain rule:
 $$
-\frac{\partial C}{\partial w_{jk}^{l}}
+\frac{\partial C}{\partial w_{jk}^{l}} =
+\frac{\partial C}{\partial z_{j}^{l}} \cdot \frac{\partial z_{j}^{l}}{\partial w_{jk}^{l}} =
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDUzNjQ4MSwtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbMTQyODkzMjM2MywtMjEwNTMyODU2MV19
 -->
