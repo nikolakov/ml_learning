@@ -218,8 +218,8 @@ $$
 \delta^{l} = \left ({ (w^{l+1})^{T} \delta^{l+1} } \right ) \circ \sigma'(z^{l})
 $$
 
-## Third equation of backpropagation - 
+## Third equation of backpropagation - derivative (rate of change) of cost function $C$ with respect to a bias 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY4MDcxLC0yMTA1MzI4NTYxXX0=
+eyJoaXN0b3J5IjpbNTIxMDIyNTU2LC0yMTA1MzI4NTYxXX0=
 -->
