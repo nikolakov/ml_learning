@@ -220,9 +220,12 @@ $$
 
 ## Third equation of backpropagation - derivative (rate of change) of cost function $C$ with respect to a bias $b_{j}^{l}$ in terms of error $\delta_{j}^{l}$:
 
-
+We can use the chain rule:
+$$
+\partial
+$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjQwNzIzNywtMjEwNTMyODU2MV19
+eyJoaXN0b3J5IjpbLTQ1MTk0MjA2MSwtMjEwNTMyODU2MV19
 -->
