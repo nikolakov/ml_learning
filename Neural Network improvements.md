@@ -78,9 +78,9 @@ $$
 \frac{\sigma(z_{j}^{L}) - y_{j}}{\sigma(z_{j}^{L})(1-\sigma(z_{j}^{L}))} \sigma(z_{j}^{L}) \left ({ 1 - \sigma(z_{j}^{L}) }\right ) = \\
 \sigma(z_{j}^{L}) - y_{j}
 $$
-We can see that the error will always be high
+We can see that now the error will always be high if the difference between the output of the neuron and the expected output is high
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTc4MDEyNSw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
