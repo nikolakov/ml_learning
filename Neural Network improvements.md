@@ -78,9 +78,9 @@ $$
 \frac{\sigma(z_{j}^{L}) - y_{j}}{\sigma(z_{j}^{L})(1-\sigma(z_{j}^{L}))} \sigma(z_{j}^{L}) \left ({ 1 - \sigma(z_{j}^{L}) }\right ) = \\
 \sigma(z_{j}^{L}) - y_{j}
 $$
-We can see that 
+We can see that the error will always be high
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDQ4NzQ0MCw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTk5MTc4MDEyNSw5MjYyNjQ1NjldfQ==
 -->
