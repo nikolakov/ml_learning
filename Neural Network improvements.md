@@ -74,11 +74,13 @@ $$
 $$
 Using the chain rule:
 $$
-\frac{\partial C}{\partial z_{j}^{L}} = \frac{\partial C}{\partial a_{j}^{L}} \cdot \frac{\partial a_{j}^{L}}{\partial z_{j}^{L}} = \frac{a_{j}^{L} - y_{j}}{a_{j}^{L}(1-a_{j}^{L})} \sigma'(z_{j}^{L}) = \\
-\frac{\sigma(z_{j}^{L}) - y_{j}}{\sigma(z_{j}^{L})(1-\sigma(z_{j}^{L}))} \sigma(z_{j}^{L}) \left ({ 1 - \sigma(z_{j}^{L}) }\right ) = 
+\delta_{j}^{L} = \frac{\partial C}{\partial z_{j}^{L}} = \frac{\partial C}{\partial a_{j}^{L}} \cdot \frac{\partial a_{j}^{L}}{\partial z_{j}^{L}} = \frac{a_{j}^{L} - y_{j}}{a_{j}^{L}(1-a_{j}^{L})} \sigma'(z_{j}^{L}) = \\
+\frac{\sigma(z_{j}^{L}) - y_{j}}{\sigma(z_{j}^{L})(1-\sigma(z_{j}^{L}))} \sigma(z_{j}^{L}) \left ({ 1 - \sigma(z_{j}^{L}) }\right ) = \\
+\sigma(z_{j}^{L}) - y_{j}
 $$
+We can see that 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NjYwMzgsOTI2MjY0NTY5XX0=
+eyJoaXN0b3J5IjpbMjAwNDQ4NzQ0MCw5MjYyNjQ1NjldfQ==
 -->
