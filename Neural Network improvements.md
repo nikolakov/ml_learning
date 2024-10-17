@@ -84,11 +84,15 @@ We can see that now the error will always be high if the difference between the 
 Softmax is a type of output layer, where the activations form a probability distribution.
 The weighted input is the same as for a sigmoid neuron:
 $$
-z_{j}^{L} = \sum_{k} { w_{jk}^{L} a_{k}^{L-1} + b_{j}^{L}
+z_{j}^{L} = \sum_{k} w_{jk}^{L} a_{k}^{L-1} + b_{j}^{L}
+$$
+The activation for each neuron is:
+$$
+a_{j}{
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2NDEzNDU2LC01MzU2MzgzMjIsOTI2Mj
-Y0NTY5XX0=
+eyJoaXN0b3J5IjpbLTE2MTEwMTYxNCwtNTM1NjM4MzIyLDkyNj
+I2NDU2OV19
 -->
