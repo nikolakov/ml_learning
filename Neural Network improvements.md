@@ -94,12 +94,13 @@ where in the denominator we sum over all the output neurons
 So, the activations are always positive and they always sum to $1$. But, neurons with higher weighted input are interpreted as exponentially more likely
 
 Monotonicity of softmax
+Substitute $u = \sum_{k}e^{z_{k}^{L}}$
 $$
-\frac{
+\frac{\partial a_{j}^}{}
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc0ODk2MzgsLTE3NDc3Mjc1MDgsLT
-UzNTYzODMyMiw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTEzMDcxNjQsLTE3NDc3Mjc1MDgsLTUzNT
+YzODMyMiw5MjYyNjQ1NjldfQ==
 -->
