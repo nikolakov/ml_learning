@@ -96,11 +96,11 @@ So, the activations are always positive and they always sum to $1$. But, neurons
 Monotonicity of softmax
 Substitute $u = \sum_{k}e^{z_{k}^{L}}$
 $$
-\frac{\partial a_{j}^}{}
+\frac{\partial a_{j}^{L}}{\partial z_{j}^{L}} = \frac{\partial a_{j}^{L}}{\partial u}
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcxNjQsLTE3NDc3Mjc1MDgsLTUzNT
-YzODMyMiw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNT
+M1NjM4MzIyLDkyNjI2NDU2OV19
 -->
