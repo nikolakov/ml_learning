@@ -93,8 +93,13 @@ $$
 where in the denominator we sum over all the output neurons
 So, the activations are always positive and they always sum to $1$. But, neurons with higher weighted input are interpreted as exponentially more likely
 
+Monotonicity of softmax
+$$
+\frac{
+$$
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc3Mjc1MDgsLTUzNTYzODMyMiw5Mj
-YyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTIxMDc0ODk2MzgsLTE3NDc3Mjc1MDgsLT
+UzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
