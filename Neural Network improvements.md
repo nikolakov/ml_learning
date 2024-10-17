@@ -94,10 +94,12 @@ where in the denominator we sum over all the output neurons
 So, the activations are always positive and they always sum to $1$. But, neurons with higher weighted input are interpreted as exponentially more likely
 
 Monotonicity of softmax
-ToDo: calculate partial derivative with respect to $a_{j}^{L}$ and $a_{k}^{L}$ where $k \ne j$ and show that the first is positive, while the second is negative.
+ToDo: calculate partial derivative of activation $a_{j}^{L}$ with respect to $z_{j}^{L}$ and $z_{k}^{L}$ where $k \ne j$ and show that the first is positive, while the second is negative.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUyNzIzNjcsLTc1MzI2NDMzMCwtMT
-c0NzcyNzUwOCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3ND
+c3Mjc1MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
