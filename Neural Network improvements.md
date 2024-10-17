@@ -90,9 +90,11 @@ The activation for each neuron is:
 $$
 a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k}e^{z_{k}^{L}}}
 $$
+where in the denominator we sum over all the output neurons
+So, the activations are always positive and they always sum to $1$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjUwMzA4MCwtNTM1NjM4MzIyLDkyNj
-I2NDU2OV19
+eyJoaXN0b3J5IjpbLTE4NzEzNDY4NzYsLTUzNTYzODMyMiw5Mj
+YyNjQ1NjldfQ==
 -->
