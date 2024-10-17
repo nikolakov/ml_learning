@@ -1,6 +1,6 @@
+# Neural Network Improvements
 
 ## Cross-entropy cost function
-
 We know from the backpropagation notes that the quadratic cost function is
 $$
 C = \frac{1}{n} \sum_{k=1}^{n} \frac{1}{2} \lVert y(x_{k})-a^{L}(x_{k}) \rVert^{2}
@@ -80,7 +80,11 @@ $$
 $$
 We can see that now the error will always be high if the difference between the output of the neuron and the expected output is high
 
+## Softmax
+Softmax is a type of layer. 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTExNTM3MzM2NjAsLTUzNTYzODMyMiw5Mj
+YyNjQ1NjldfQ==
 -->
