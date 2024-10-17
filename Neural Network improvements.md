@@ -91,10 +91,10 @@ $$
 a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k}e^{z_{k}^{L}}}
 $$
 where in the denominator we sum over all the output neurons
-So, the activations are always positive and they always sum to $1$
+So, the activations are always positive and they always sum to $1$. But, neurons with higher weighted input are interpreted as exponentially more likely
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzEzNDY4NzYsLTUzNTYzODMyMiw5Mj
+eyJoaXN0b3J5IjpbLTE3NDc3Mjc1MDgsLTUzNTYzODMyMiw5Mj
 YyNjQ1NjldfQ==
 -->
