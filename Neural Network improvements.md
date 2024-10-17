@@ -81,10 +81,14 @@ $$
 We can see that now the error will always be high if the difference between the output of the neuron and the expected output is high
 
 ## Softmax
-Softmax is a type of layer. 
+Softmax is a type of output layer, where the activations form a probability distribution.
+The weighted input is the same as for a sigmoid neuron:
+$$
+z_{j}^{L} = 
+$$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM3MzM2NjAsLTUzNTYzODMyMiw5Mj
-YyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTE2MTY5ODYzNCwtNTM1NjM4MzIyLDkyNj
+I2NDU2OV19
 -->
