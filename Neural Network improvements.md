@@ -88,11 +88,11 @@ z_{j}^{L} = \sum_{k} w_{jk}^{L} a_{k}^{L-1} + b_{j}^{L}
 $$
 The activation for each neuron is:
 $$
-a_{j}{
+a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k}e^{z_{k}^{L}}}
 $$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEwMTYxNCwtNTM1NjM4MzIyLDkyNj
+eyJoaXN0b3J5IjpbLTg1NjUwMzA4MCwtNTM1NjM4MzIyLDkyNj
 I2NDU2OV19
 -->
