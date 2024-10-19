@@ -113,12 +113,15 @@ $$
 Where $C$ is the natural log of the sum of all activations, so it's independent of $j$
 
 ## Log-likelihood cost function
-Let's 
-##
+Let's define the log-likelihood cost function to be:
+$$
+C = - ln (a_{y}^{L})
 
+Where y is the expected correct 
+$$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUyOTQ1MDcsLTk5MjA3NTE4MywxNj
-g3MTQ3OTU2LDIxODI0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3
-NTA4LC01MzU2MzgzMjIsOTI2MjY0NTY5XX0=
+eyJoaXN0b3J5IjpbNzQwNzI5NTI1LC05OTIwNzUxODMsMTY4Nz
+E0Nzk1NiwyMTgyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUw
+OCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
 -->
