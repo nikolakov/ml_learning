@@ -118,9 +118,11 @@ $$
 C = - ln (a_{y}^{L})
 $$
 Where y is the index of the output neuron that is expected to be activated. For example, for an MNIST image of a 7, the activation $a_{7}^{L}$ should be high and the cost function is $- ln (a_{7}^{L})$
+
+### Output layer error of softmax with log-likeliho
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NDI3NTYxLC05OTIwNzUxODMsMTY4Nz
-E0Nzk1NiwyMTgyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUw
-OCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbMTMyNjY3MTY2MywtOTkyMDc1MTgzLDE2OD
+cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
+MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
