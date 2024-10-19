@@ -105,11 +105,13 @@ $$
 ### Softmax inverse
 $$
 a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{k}^{L}}} \\
-e^{z_{j}^{L}} = a_{j}^{L} \sum_{k} e^{z_{k}^{L}}
+e^{z_{j}^{L}} = a_{j}^{L} \sum_{k} e^{z_{k}^{L}} \\
+z_{j}^{L} = ln \left ({ a_{j}^{L} \sum_{k} e^{z_{k}^{L}} } \right) \\
+z
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjA3NTE4MywxNjg3MTQ3OTU2LDIxOD
-I0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3NTA4LC01MzU2Mzgz
-MjIsOTI2MjY0NTY5XX0=
+eyJoaXN0b3J5IjpbMTQ0ODAzMzQ3NywtOTkyMDc1MTgzLDE2OD
+cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
+MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
