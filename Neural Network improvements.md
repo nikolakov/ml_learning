@@ -102,10 +102,14 @@ $$
 a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{j}^{L}}}
 $$
 
-### Solf
+### Softmax inverse
+$$
+a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{j}^{L}}} \\
+e^{z}
+$$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEzOTQ2OTYsMTY4NzE0Nzk1NiwyMT
-gyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4
-MzIyLDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbNDcyMjU1ODUsMTY4NzE0Nzk1NiwyMTgyND
+gyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4MzIy
+LDkyNjI2NDU2OV19
 -->
