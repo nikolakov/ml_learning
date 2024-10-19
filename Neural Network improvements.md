@@ -112,10 +112,13 @@ z_{j}^{L} = ln \left({ a_{j}^{L} }\right) + C
 $$
 Where $C$ is the natural log of the sum of all activations, so it's independent of $j$
 
-## Log-likel
+## Log-likelihood cost function
+
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ0NjY1NjgsLTk5MjA3NTE4MywxNj
-g3MTQ3OTU2LDIxODI0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3
-NTA4LC01MzU2MzgzMjIsOTI2MjY0NTY5XX0=
+eyJoaXN0b3J5IjpbMTMxODU0NTI2MiwtOTkyMDc1MTgzLDE2OD
+cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
+MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
