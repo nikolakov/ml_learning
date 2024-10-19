@@ -117,11 +117,11 @@ Let's define the log-likelihood cost function to be:
 $$
 C = - ln (a_{y}^{L})
 
-Where y is the expected correct 
+Where y is the index of the output neuron that is expected to be activated. For example, for an MNIST image of a 7, the 
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNzI5NTI1LC05OTIwNzUxODMsMTY4Nz
-E0Nzk1NiwyMTgyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUw
-OCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbMTg0MDczMjQ3MiwtOTkyMDc1MTgzLDE2OD
+cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
+MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
