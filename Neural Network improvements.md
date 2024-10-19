@@ -116,12 +116,11 @@ Where $C$ is the natural log of the sum of all activations, so it's independent 
 Let's define the log-likelihood cost function to be:
 $$
 C = - ln (a_{y}^{L})
-
-Where y is the index of the output neuron that is expected to be activated. For example, for an MNIST image of a 7, the activation a_{7}^{L} should be high
 $$
+Where y is the index of the output neuron that is expected to be activated. For example, for an MNIST image of a 7, the activation $a_{7}^{L}$ should be high and the cost function is $- ln (a_{7}^{L})$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NzA5MDkzLC05OTIwNzUxODMsMTY4Nz
+eyJoaXN0b3J5IjpbNTc3NDI3NTYxLC05OTIwNzUxODMsMTY4Nz
 E0Nzk1NiwyMTgyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUw
 OCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
 -->
