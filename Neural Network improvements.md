@@ -99,17 +99,17 @@ ToDo: calculate partial derivative of activation $a_{j}^{L}$ with respect to $z_
 ### Non-locality of softmax
 Sigmoid activations depend only on their own weighted input $a_{j}^{L} = \sigma(z_{j}^{L})$. Softmax activations on the other hand, depend on all weighted inputs because they are calculated as fraction of the sum of all activations:
 $$
-a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{j}^{L}}}
+a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{k}^{L}}}
 $$
 
 ### Softmax inverse
 $$
-a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{j}^{L}}} \\
-e^{z}
+a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{k}^{L}}} \\
+e^{z_{j}^{L}} = a_{j}^{L} \sum_{k} e^{z_{k}^{L}}
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMjU1ODUsMTY4NzE0Nzk1NiwyMTgyND
-gyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4MzIy
-LDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbLTk5MjA3NTE4MywxNjg3MTQ3OTU2LDIxOD
+I0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3NTA4LC01MzU2Mzgz
+MjIsOTI2MjY0NTY5XX0=
 -->
