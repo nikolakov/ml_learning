@@ -113,12 +113,12 @@ $$
 Where $C$ is the natural log of the sum of all activations, so it's independent of $j$
 
 ## Log-likelihood cost function
-
-
+Let's 
+##
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODU0NTI2MiwtOTkyMDc1MTgzLDE2OD
-cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
-MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
+eyJoaXN0b3J5IjpbLTEyNTUyOTQ1MDcsLTk5MjA3NTE4MywxNj
+g3MTQ3OTU2LDIxODI0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3
+NTA4LC01MzU2MzgzMjIsOTI2MjY0NTY5XX0=
 -->
