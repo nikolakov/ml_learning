@@ -120,10 +120,10 @@ $$
 Where y is the index of the output neuron that is expected to be activated. For example, for an MNIST image of a 7, the activation $a_{7}^{L}$ should be high and the cost function is $- ln (a_{7}^{L})$
 
 ### Output layer error of softmax with log-likelihood cost function
-ToDo: Find the error $\delta^{L}$, i.e. the derivative of $C$ with respect to 
+ToDo: Find the error $\delta^{L}$, i.e. the derivative of $C$ with respect to each $z_{j}^{L}$ and then the derivative of $C$ with respect to a weight and bias of the output layer $
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjkxODI0NiwtOTkyMDc1MTgzLDE2OD
+eyJoaXN0b3J5IjpbLTI1MDAxNzM3MiwtOTkyMDc1MTgzLDE2OD
 cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
 MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
