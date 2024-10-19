@@ -97,11 +97,11 @@ Monotonicity of softmax
 ToDo: calculate partial derivative of activation $a_{j}^{L}$ with respect to $z_{j}^{L}$ and $z_{k}^{L}$ where $k \ne j$ and show that the first is positive, while the second is negative.
 
 Non-locality of softmax
-Sigmoid 
+Sigmoid activations depend only on their own weighted input $a_{j}^{L} = \sigma(z_{j}^{L})$. Soft
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzU4ODI4OCwxNjg3MTQ3OTU2LDIxOD
-I0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3NTA4LC01MzU2Mzgz
-MjIsOTI2MjY0NTY5XX0=
+eyJoaXN0b3J5IjpbLTE4MzY5MjQxMzEsMTY4NzE0Nzk1NiwyMT
+gyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4
+MzIyLDkyNjI2NDU2OV19
 -->
