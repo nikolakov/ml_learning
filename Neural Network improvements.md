@@ -93,18 +93,19 @@ $$
 where in the denominator we sum over all the output neurons
 So, the activations are always positive and they always sum to $1$. But, neurons with higher weighted input are interpreted as exponentially more likely
 
-Monotonicity of softmax
+### Monotonicity of softmax
 ToDo: calculate partial derivative of activation $a_{j}^{L}$ with respect to $z_{j}^{L}$ and $z_{k}^{L}$ where $k \ne j$ and show that the first is positive, while the second is negative.
 
-Non-locality of softmax
+### Non-locality of softmax
 Sigmoid activations depend only on their own weighted input $a_{j}^{L} = \sigma(z_{j}^{L})$. Softmax activations on the other hand, depend on all weighted inputs because they are calculated as fraction of the sum of all activations:
 $$
-a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum}
+a_{j}^{L} = \frac{e^{z_{j}^{L}}}{\sum_{k} e^{z_{j}^{L}}}
 $$
 
+### Solf
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUyOTk0ODEsMTY4NzE0Nzk1NiwyMT
+eyJoaXN0b3J5IjpbLTE2MTEzOTQ2OTYsMTY4NzE0Nzk1NiwyMT
 gyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4
 MzIyLDkyNjI2NDU2OV19
 -->
