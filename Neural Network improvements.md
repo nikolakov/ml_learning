@@ -110,10 +110,10 @@ z_{j}^{L} = ln \left ({ a_{j}^{L} \sum_{k} e^{z_{k}^{L}} } \right) \\
 z_{j}^{L} = ln \left({ a_{j}^{L} }\right) + ln \left({ \sum_{k} e^{z_{k}^{L}} }\right) \\
 z_{j}^{L} = ln \left({ a_{j}^{L} }\right) + C
 $$
-For some constant 
+Where $C$ is the natural log of the sum of all activations, so it's independent of $j$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNTE5ODkxLC05OTIwNzUxODMsMTY4Nz
-E0Nzk1NiwyMTgyNDgyNDYsLTc1MzI2NDMzMCwtMTc0NzcyNzUw
-OCwtNTM1NjM4MzIyLDkyNjI2NDU2OV19
+eyJoaXN0b3J5IjpbMjA3NTMyMzgxNiwtOTkyMDc1MTgzLDE2OD
+cxNDc5NTYsMjE4MjQ4MjQ2LC03NTMyNjQzMzAsLTE3NDc3Mjc1
+MDgsLTUzNTYzODMyMiw5MjYyNjQ1NjldfQ==
 -->
