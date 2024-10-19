@@ -96,13 +96,12 @@ So, the activations are always positive and they always sum to $1$. But, neurons
 Monotonicity of softmax
 ToDo: calculate partial derivative of activation $a_{j}^{L}$ with respect to $z_{j}^{L}$ and $z_{k}^{L}$ where $k \ne j$ and show that the first is positive, while the second is negative.
 
-$$
-\cup
-$$
+Non-locality of softmax
+Sigmoid 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzE0Nzk1NiwyMTgyNDgyNDYsLTc1Mz
-I2NDMzMCwtMTc0NzcyNzUwOCwtNTM1NjM4MzIyLDkyNjI2NDU2
-OV19
+eyJoaXN0b3J5IjpbLTQzNzU4ODI4OCwxNjg3MTQ3OTU2LDIxOD
+I0ODI0NiwtNzUzMjY0MzMwLC0xNzQ3NzI3NTA4LC01MzU2Mzgz
+MjIsOTI2MjY0NTY5XX0=
 -->
